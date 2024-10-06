@@ -27,15 +27,19 @@ print(type(my_string))
 print(isinstance(my_char, str))
 
 #collections
-my_list = [1,2,3,"a", "b"] # mutable
+
+# list is mutable, may contain duplicates and ordered
+my_list = [1,2,3,"a", "b"]
 print(type(my_list))
 print(isinstance(my_list, list))
 
-my_tuple = (1,2,3, "a", "b") # immutable
+# tuple is immutable, may contain duplicates and ordered
+my_tuple = (1,2,3, "a", "b")
 print(type(my_tuple))
 print(isinstance(my_tuple, tuple))
 
-my_set = {1, 2, 3, "a", "b"}
+# set is mutable but does not allow duplicates and is not ordered
+my_set = {1, 2, 3, "a", "b"} # does not allow duplicates
 print(type(my_set))
 print(isinstance(my_set, set)) # mutable 
 
