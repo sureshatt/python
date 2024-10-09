@@ -13,6 +13,8 @@ print(fruits)
 fruits.remove('kiwi') # removes the first encounter
 print(fruits)
 
+del fruits[1]
+
 # replace itesm
 print(fruits.pop(2))
 print(fruits)
